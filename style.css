@@ -12,8 +12,6 @@
       font-family: Helvetica, Arial, sans-serif;
       cursor: pointer;
       display: flex;
-      justify-content: center;
-      align-items: center;
   }
 
 .bed-details {
@@ -23,14 +21,31 @@
 .sale-details {
     width: 50vw;
     height: 100%;
-    border: #ffffff solid 1px;
   }
 
 .extra-offers {
     width: 50vw;
-    height: 100%;
-    border: #ffffff solid 1px;
+    text-align: center;
   }
+
+.e-o-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .e-o-main {
+    padding: 0.35em 0;
+  }
+  
+.e-o-button{
+  margin: 0 auto;
+  padding: 0.625em 1.17em;
+  color: #CC2048;
+  background-color: #ffffff;
+}
 
 @media only screen and (min-width: 600px) {
     .bed-details {
@@ -71,5 +86,9 @@
       .extra-offers {
         width: 30vw;
       }
-    
+
+      .e-o-main {
+        border-left: #FFF000 1px solid;
+      }
+   
 }
