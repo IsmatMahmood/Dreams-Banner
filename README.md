@@ -2,7 +2,10 @@ Dreams-Banner
 
 The task is to recreate the designs using mobile-first responsive design using JS, HTML and CSS only.
 
-As a user, I want to click on the banner, so that I can visit https://www.dreams.co.uk/sale/all-sale
+Requirements
+• As a user, I want to see the mobile design when I’m using my mobile device.
+• As a user, I want to see the desktop design when I’m using my desktop computer.
+• As a user, I want to click on the banner, so that I can visit https://www.dreams.co.uk/sale/all-sale
 
 ![image](https://user-images.githubusercontent.com/78758465/156038575-fa9ef07a-6433-429d-90ba-1006b7321923.png)
 
@@ -16,4 +19,4 @@ Colours
 • Yellow: #FFF000
 • White: #ffffff
 Font
-• Helvetica, Arial, sans-seri
+• Helvetica, Arial, sans-serif
